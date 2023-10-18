@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar .navbar-nav {
+  flex-direction: row;
+}
+.navbar .navbar-nav .nav-link {
+  padding: 10px;
+}
+label {
+  font-weight: bold;
+}
+input {
+  margin-bottom: 10px;
+}
+.col-xl-12 {
+  display: flex;
+  justify-content: space-between;
+}
+.col-xl-12 .col-xl-6:last-child {
+  padding-left: 30px;
+}
+.form-check {
+  margin-right: 10px;
+}
+i {
+  font-size: 30px;
+}
